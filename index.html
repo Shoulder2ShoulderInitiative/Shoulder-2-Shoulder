@@ -74,16 +74,16 @@
     }
 
     .hero {
-  min-height: 82vh;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 7rem 1.25rem 5rem;
-  background:
-    linear-gradient(rgba(17, 19, 21, 0.14), rgba(17, 19, 21, 0.40)),
-    url("hero.jpg") center/cover no-repeat;
+  background: #111315;
   border-bottom: 1px solid var(--line);
   text-align: center;
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .hero-content {
@@ -295,6 +295,7 @@
   </header>
 
   <section class="hero" id="top">
+    <img src="hero.jpg" alt="Shoulder 2 Shoulder men gathered around a fire" class="hero-image">
   <div class="hero-content">
     
   </div>
